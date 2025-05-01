@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Iris Type</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='after.css') }}">
+</head>
+<body>
+
+  {% if data == 0 %}
+  <div class="bg-setosa">
+    <h2>PREDICTION : Iris Setosa</h2>
+    <p><b>For more information : </b>
+    <a href="https://en.wikipedia.org/wiki/Iris_setosa">WIKIPEDIA</a>
+    </p>
+    <a href="/">Back to the Home-Page</a>
+  </div>
+
+  {% elif data == 1 %}
+  <div class="bg-versicolor">
+    <h2>PREDICTION : Iris Versicolor</h2>
+    <p><b>For more information : </b>
+    <a href="https://fr.wikipedia.org/wiki/Iris_versicolore">WIKIPEDIA</a>
+    </p>
+    <a href="/">Back to the Home-Page</a>
+  </div>
+
+  {% else %}
+  <div class="bg-virginica">
+    <h2>PREDICTION : Iris Virginica</h2>
+    <p><b>For more information : </b>
+    <a href="https://en.wikipedia.org/wiki/Iris_virginica">WIKIPEDIA</a>
+    </p>
+    <a href="/">Back to the Home-Page</a>
+  </div>
+
+  {% endif %}
+
+</body>
+</html>

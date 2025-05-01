@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Iris Identifier</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body >
+  <div>
+    <h1>IRIS FLOWER DETECTION</h1>
+    <form method="POST" action="{{url_for('home')}}">
+      <ul>
+        <b> 
+          <li style="display: flex; align-items: center;">
+            <label for="text" style="width: 150px;">SEPAL LENGTH(CM) :</label>
+              <input type="text" name='a' placeholder="enter 1" >
+          </li><br>
+          <li style="display: flex; align-items: center;">
+            <label for="text" style="width: 150px;">SEPAL WIDTH(CM)  :</label>
+            <input type="text" name="b" placeholder="enter 2" >
+          </li><br>
+          <li style="display: flex; align-items: center;">
+            <label for="text" style="width: 150px;">PETAL LENGTH(CM) :</label>
+            <input type="text" name="c" placeholder="enter 3" >
+          </li><br>
+          <li style="display: flex; align-items: center;">
+            <label for="text" style="width: 150px;"> PETAL WIDTH(CM)  :</label>
+            <input type="text" name="d" placeholder="enter 4">
+          </li><br>
+        </b>
+        <input type="submit" value="predict">
+      </ul>
+    </form>
+  </div>
+</body>
+</html>

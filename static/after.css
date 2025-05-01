@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+}
+
+.bg-setosa{
+  height: 100vh;
+  background-color: rgb(131, 131, 233);
+  background-image: url("iris_setosa.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 30px;
+}
+
+.bg-versicolor{
+  height: 100vh;
+  background-color: rgb(131, 131, 233);
+  background-image: url("iris-versicolor.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 30px;
+}
+
+.bg-virginica{
+  height: 100vh;
+  background-color: rgb(131, 131, 233);
+  background-image: url("iris_virginica.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 30px;
+}
+
+h2{
+  color: blueviolet;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+p{
+  color: blueviolet;
+  padding-left: 10px;
+}
+
+a{
+  color: rgb(27, 167, 192);
+  padding-left: 10px;
+}
