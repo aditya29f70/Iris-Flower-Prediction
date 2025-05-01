@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+}
+
+.head{
+  background-image: url("detail-frontend-iris.jpg");
+  background-color: aqua;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+  margin: 0;
+  padding: 10px;
+  color: rgb(65, 65, 183);
+  text-align: left;
+}
+
+.head1{
+  display: inline;
+  align-items: start;
+  gap: 10px;
+}
+
+.left-list{
+  width: 220px;
+}
+
+.features-container{
+  display: flex;
+  align-items: flex-start;
+  gap:10px;
+}
+.head1, .head2{
+  flex:1;
+}
+
+
+.head2{
+  padding-left:200px;
+}
+
+button{
+  width: 175px;
+  height: 40px;
+  font-size:18px;
+  padding-left: 10px;
+  margin: 10px;
+
+}
+
+  
+
+

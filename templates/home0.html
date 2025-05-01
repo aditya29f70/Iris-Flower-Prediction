@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Iris Information</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='home0.css') }}">
+</head>
+<body>
+  <div class="head">
+    <h1>Welcome to Iris Flower Home :</h1>
+    <a href="/info">
+      <button class="my-buttom">Predict Iris-Flower</button>
+    </a>
+  <div class="features-container">
+    <div class="head1">
+    <h2>Features of the Iris Flower:</h2>
+    <ol class="left-list">
+      <li>Sepal Length (cm)</li>
+      <ul>
+        <li>
+          The sepal is the outer part of the flower that protects the 
+          petals before it blooms.
+        </li>
+        <li>
+          Length is how long the sepal is, measured in centimeters.
+        </li>
+      </ul>
+      <li>Sepal Width (cm)</li>
+      <ul>
+        <li>How wide the sepal is.</li>
+        <li>Together with sepal length, it gives an idea of the flower’s outer shape.</li>
+      </ul>
+      <li>Petal Length (cm)</li>
+      <ul>
+        <li>Petals are the colorful parts that attract pollinators.</li>
+        <li>This is how long the petal is</li>
+      </ul>
+      <li>Petal Width (cm)</li>
+      <ul>
+        <li>How thick or wide the petal is</li>
+      </ul>
+    </ol>
+    </div>
+
+
+    <div class="head2">
+    <h2>Target (Label):</h2>
+    <ul>
+      <li>Each sample is classified into one of three species of Iris:</li>
+      <ul>
+        <li>Iris setosa</li>
+        <li>Iris versicolor</li>
+        <li>Iris virginica</li>
+      </ul>
+    </ul>
+    
+
+    <h2>Why these features?</h2>
+    <p>These measurements were chosen because they vary in predictable ways between species. For example:</p>
+    <ul>
+      <li>Iris setosa tends to have shorter, narrower petals, making it easier to distinguish.</li>
+      <li>The other two species are a bit trickier to tell apart.</li>
+    </ul>
+    </div>
+  </div>
+
+</body>
+</html>
